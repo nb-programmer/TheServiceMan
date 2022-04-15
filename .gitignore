@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+theserviceman/node_modules
+theserviceman/.pnp
+theserviceman/.pnp.js
+
+# testing
+theserviceman/coverage
+
+# production
+theserviceman/build
+
+# misc
+theserviceman/.DS_Store
+theserviceman/.env.local
+theserviceman/.env.development.local
+theserviceman/.env.test.local
+theserviceman/.env.production.local
+
+theserviceman/npm-debug.log*
+theserviceman/yarn-debug.log*
+theserviceman/yarn-error.log*
