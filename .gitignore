@@ -18,23 +18,26 @@ venv.bak/
 .vscode/*
 
 # dependencies
-theserviceman/node_modules
-theserviceman/.pnp
-theserviceman/.pnp.js
+node_modules/*
+.pnp
+.pnp.js
 
 # testing
-theserviceman/coverage
+coverage/*
 
 # production
-theserviceman/build
+build/*
 
 # misc
-theserviceman/.DS_Store
-theserviceman/.env.local
-theserviceman/.env.development.local
-theserviceman/.env.test.local
-theserviceman/.env.production.local
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-theserviceman/npm-debug.log*
-theserviceman/yarn-debug.log*
-theserviceman/yarn-error.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# databases
+*.db
